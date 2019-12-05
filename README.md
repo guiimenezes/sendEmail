@@ -24,7 +24,7 @@ def index(request):
     send_mail(
         'título para um email de teste',
         'essa mensagem é para identificar um email de teste',
-        'emails de quem vai enviar',
+        'email de quem vai enviar',
         ['email de quem vai receber'],
         fail_silently=False
     )
